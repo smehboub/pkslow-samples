@@ -63,6 +63,7 @@
                         <builder>paketobuildpacks/builder:tiny</builder>
                         <env>
                             <BP_NATIVE_IMAGE>true</BP_NATIVE_IMAGE>
+                            <BP_BINARY_COMPRESSION_METHOD>upx</BP_BINARY_COMPRESSION_METHOD>
                         </env>
                         <pullPolicy>IF_NOT_PRESENT</pullPolicy>
                     </image>
